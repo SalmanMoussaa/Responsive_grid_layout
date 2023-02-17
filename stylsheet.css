@@ -1,0 +1,71 @@
+.header{display: flex;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: auto;
+    justify-content:space-between;
+}
+.contains_the_container{
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: auto;
+    justify-content:center;
+    flex-direction: column;
+
+
+}
+footer{text-align: center;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+    color: white;}
+.company_name{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu{
+    display: block;
+    color: black;
+    float: left;
+    padding: 16px;
+    text-decoration: none;
+    border-left:1px;
+    border-color: yellowgreen;
+}
+
+
+.container{
+    display: flex;
+   
+    align-items: flex-start ;
+    justify-content:space-around;
+
+    
+    
+
+    background-color: yellowgreen;
+}
+
+.name{
+    font-family: 'Courier New', monospace;
+    text-align: center;
+   
+
+}
+.shoes{
+    width: 20%;
+}
+.shoes1{
+    width: 100%;
+
+
+
+}
